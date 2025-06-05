@@ -82,3 +82,36 @@ body {
     gap: 10px;
     width: 100%;
 }
+
+@media (max-width: 480px) {
+    #todo-input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .todo-btn {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .all-btn {
+        padding: 8px;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    #container {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .show {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .error {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
